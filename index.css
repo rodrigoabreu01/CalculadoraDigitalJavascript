@@ -36,15 +36,23 @@ background: linear-gradient(266deg, rgba(216,221,76,1) 0%, rgba(255,235,0,1) 41%
     display: flex; 
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     box-shadow: 2px 2px 25px red;
 }
 .relogio div h1{
     position: absolute;
     font-weight: bold;
+    color: #fff;
+}
+.relogio div p{
+    color: #fff;
+    position: absolute;
+    bottom: 25px;
+    font-size: 18px;
 }
 .relogio div::before{
     content: "";
-    background-color: rgba(255, 200, 0, 0.788);
+    background-color: #000000;
     width: 175px;
     height: 180px;
     position: absolute;
