@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Russo+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(216,221,76);
+background: linear-gradient(266deg, rgba(216,221,76,1) 0%, rgba(255,235,0,1) 41%, rgba(255,188,0,1) 100%);
+
+}
+.relogio{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.relogio div{
+    background-color: rgba(243, 36, 36, 0.599);
+    font-size: 50px;
+    width: 210px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 25px red;
+}
+.relogio div h1{
+    position: absolute;
+    font-weight: bold;
+}
+.relogio div::before{
+    content: "";
+    background-color: rgba(255, 200, 0, 0.788);
+    width: 175px;
+    height: 180px;
+    position: absolute;
+    border-radius: 10px;
+}
+.data h1{
+    font-size: 30px;
+}
