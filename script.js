@@ -13,6 +13,19 @@ const resultado = setInterval(() =>{
     hora.textContent = h;
     minuto.textContent = m;
     segundo.textContent = s;
+
+  
+     if (h < 10){
+        hora.textContent = '0' + h;
+     }
+     if (m < 10){
+        minuto.textContent = '0' + m;
+     } 
+     if (s < 10){
+        segundo.textContent = '0' + s;
+     }
+     
+
 });
 
 
